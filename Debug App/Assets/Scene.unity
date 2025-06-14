@@ -325,7 +325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Text: {fileID: 1136367080}
-  SparksParticles: {fileID: 198000012368742472, guid: 78b71003e8b357d4bbf89c8b5e5e4f0e, type: 3}
+  SparksParticles: {fileID: 6573828550089270648}
 --- !u!1 &1655989720
 GameObject:
   m_ObjectHideFlags: 0

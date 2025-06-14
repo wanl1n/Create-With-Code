@@ -7,12 +7,7 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private float forwardInput;
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
+    void FixedUpdate()
     {
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");

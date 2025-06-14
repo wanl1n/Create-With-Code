@@ -250,6 +250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 258427524}
   - component: {fileID: 258427523}
+  - component: {fileID: 258427525}
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
@@ -288,6 +289,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &258427525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258427522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c0e1f24e2ce4a5b9bf1f3a7499cd45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  objectToPool: {fileID: 8138051707667495149, guid: ee36f23c93983df4da77f212ee3cd196, type: 3}
+  amountToPool: 20
 --- !u!1 &425805626
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,32 +702,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: f3f69bcf5a1514c458ed5c9b96f28e34, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1587477575}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3f69bcf5a1514c458ed5c9b96f28e34, type: 3}
---- !u!1 &1587477574 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: f3f69bcf5a1514c458ed5c9b96f28e34, type: 3}
-  m_PrefabInstance: {fileID: 1587477573}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1587477575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1587477574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 698f550ed985ae641b0f5f00a7905b77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  horizontalInput: 0
-  speed: 10
-  xRange: 10
-  projectilePrefab: {fileID: 8138051707667495149, guid: ee36f23c93983df4da77f212ee3cd196, type: 3}
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0

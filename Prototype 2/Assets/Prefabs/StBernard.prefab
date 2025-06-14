@@ -4131,8 +4131,9 @@ GameObject:
   - component: {fileID: 4285052943671413772}
   - component: {fileID: 3745049179175910700}
   - component: {fileID: 6940628919250163600}
-  - component: {fileID: 4866175302763510676}
+  - component: {fileID: 6413602038120737563}
   - component: {fileID: 4259709999940372068}
+  - component: {fileID: 3956741682725350014}
   m_Layer: 0
   m_Name: StBernard
   m_TagString: Untagged
@@ -4227,7 +4228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
---- !u!114 &4866175302763510676
+--- !u!114 &6413602038120737563
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4236,7 +4237,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6323747917339706836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 583d67ce190df5d4c8258df472e1852b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &4259709999940372068
@@ -4260,6 +4261,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1, y: 0.2, z: 0.25}
   m_Center: {x: 0, y: 0.09, z: 0.025}
+--- !u!114 &3956741682725350014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323747917339706836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6381401715900300624
 GameObject:
   m_ObjectHideFlags: 0

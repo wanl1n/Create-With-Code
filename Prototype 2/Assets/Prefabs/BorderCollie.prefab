@@ -2523,8 +2523,9 @@ GameObject:
   - component: {fileID: 2652140240809797914}
   - component: {fileID: 6765335442379771116}
   - component: {fileID: 4876053201774308763}
-  - component: {fileID: 9209497945165504799}
+  - component: {fileID: 6137695301889507744}
   - component: {fileID: 5233822325701077577}
+  - component: {fileID: 3491197811924924442}
   m_Layer: 0
   m_Name: BorderCollie
   m_TagString: Untagged
@@ -2619,7 +2620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
---- !u!114 &9209497945165504799
+--- !u!114 &6137695301889507744
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2628,7 +2629,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3234796908459339893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 583d67ce190df5d4c8258df472e1852b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &5233822325701077577
@@ -2652,6 +2653,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1, y: 0.2, z: 0.25}
   m_Center: {x: 0, y: 0.09, z: 0}
+--- !u!114 &3491197811924924442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3234796908459339893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3369231571046738183
 GameObject:
   m_ObjectHideFlags: 0

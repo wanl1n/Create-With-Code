@@ -9,7 +9,9 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb;
 
-    public Camera mainCamera;
+    // ENCAPSULATION
+    private Camera mainCamera;
+    public Camera MainCamera { get; set; }
 
     void Start()
     {
@@ -19,6 +21,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        // ABSTRACTION
         Move();
 
         if (Input.GetKeyDown(KeyCode.Mouse0))

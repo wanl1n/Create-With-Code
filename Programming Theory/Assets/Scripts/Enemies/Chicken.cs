@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
+// INHERITANCE
 public class Chicken : Enemy
 {
     private bool isFollowing = true;
@@ -13,6 +14,7 @@ public class Chicken : Enemy
         StartCoroutine(StopAtIntervals());
     }
 
+    // POLYMORPHISM
     protected override void Update() 
     {
         if (isFollowing)
